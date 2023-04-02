@@ -1,0 +1,15 @@
+C:\Users\Kirill\RiderProjects\MatrixMod\MatrixMod\obj\Debug\net6.0\MatrixMod.csproj.AssemblyReference.cache
+C:\Users\Kirill\RiderProjects\MatrixMod\MatrixMod\obj\Debug\net6.0\MatrixMod.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kirill\RiderProjects\MatrixMod\MatrixMod\obj\Debug\net6.0\MatrixMod.AssemblyInfoInputs.cache
+C:\Users\Kirill\RiderProjects\MatrixMod\MatrixMod\obj\Debug\net6.0\MatrixMod.AssemblyInfo.cs
+C:\Users\Kirill\RiderProjects\MatrixMod\MatrixMod\obj\Debug\net6.0\MatrixMod.csproj.CoreCompileInputs.cache
+C:\Users\Kirill\RiderProjects\MatrixMod\MatrixMod\bin\Debug\net6.0\MatrixMod.exe
+C:\Users\Kirill\RiderProjects\MatrixMod\MatrixMod\bin\Debug\net6.0\MatrixMod.deps.json
+C:\Users\Kirill\RiderProjects\MatrixMod\MatrixMod\bin\Debug\net6.0\MatrixMod.runtimeconfig.json
+C:\Users\Kirill\RiderProjects\MatrixMod\MatrixMod\bin\Debug\net6.0\MatrixMod.dll
+C:\Users\Kirill\RiderProjects\MatrixMod\MatrixMod\bin\Debug\net6.0\MatrixMod.pdb
+C:\Users\Kirill\RiderProjects\MatrixMod\MatrixMod\obj\Debug\net6.0\MatrixMod.dll
+C:\Users\Kirill\RiderProjects\MatrixMod\MatrixMod\obj\Debug\net6.0\refint\MatrixMod.dll
+C:\Users\Kirill\RiderProjects\MatrixMod\MatrixMod\obj\Debug\net6.0\MatrixMod.pdb
+C:\Users\Kirill\RiderProjects\MatrixMod\MatrixMod\obj\Debug\net6.0\MatrixMod.genruntimeconfig.cache
+C:\Users\Kirill\RiderProjects\MatrixMod\MatrixMod\obj\Debug\net6.0\ref\MatrixMod.dll
