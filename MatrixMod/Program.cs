@@ -4,7 +4,7 @@ using Groups;
 class Program {
     static void Main(string[] args)
     {
-        const int N = 5;
+        const int N = 19;
         Field<int> Zn = new Field<int>(
             Enumerable.Range(0, N).ToHashSet(),
             (a, b) => (a + b) % N,
@@ -21,13 +21,17 @@ class Program {
 
         
         
-         int[][] matrix = new int[][]{
-             new[]{1, 4, 1, 1, 1},
-             new[]{0, 3, 0, 1, 1},
-             new[]{3, 2, 2, 3, 0},
-             new[]{3, 2, 4, 3, 3}};
-         
-         
+         // int[][] matrix = new int[][]{
+         //     new[]{1, 4, 1, 1, 1},
+         //     new[]{0, 3, 0, 1, 1},
+         //     new[]{3, 2, 2, 3, 0},
+         //     new[]{3, 2, 4, 3, 3}};
+
+         int[][] matrix = ParseMatrix(N);
+
+         matrix = Reduce(matrix, Zn);
+         Print(matrix);
+         Console.WriteLine("___________________");
          matrix = Canonical(matrix, Zn);
          Print(matrix);
          Console.WriteLine("___________________");
@@ -39,7 +43,7 @@ class Program {
         {
             foreach(var y in x)
             {
-                Console.Write($"{y} ");
+                Console.Write($"{y}\t");
             }
         
             Console.WriteLine();
@@ -80,6 +84,9 @@ class Program {
                 for(int k = i; k < m; k++)
                     matrix[j][k] = Zn.Add(matrix[j][k], Zn.AdditiveInverse(matrix[j - 1][k]));
             }
+            
+            Print(matrix);
+            Console.WriteLine("_____________________________\n");
         }
 
         return matrix;
@@ -95,6 +102,7 @@ class Program {
         Array.Copy(arr, matrix, n);
         matrix = Reduce(matrix, Zn);
 
+        Console.WriteLine();
         for (int i = n - 1; i >= 0; i--)
         {
             for (int j = 0; j < m; j++)
@@ -112,9 +120,32 @@ class Program {
                     break;
                 }
             }
+            Print(matrix);
+            Console.WriteLine("_____________________________\n");   
         }
 
         return matrix;
     }
 
+    public static int[][] ParseMatrix(int m)
+    {
+        List<int[]> temp = new List<int[]>();
+        string s;
+        while (true)
+        {
+            s = Console.ReadLine();
+            if (s == "")
+                break;
+            int[] t = Array.ConvertAll(s.Split(), x =>  Util.Mod(int.Parse(x), m));
+            if (temp.Count != 0)
+                if (temp[^1].Length != t.Length)
+                {
+                    Console.WriteLine("Inconsistent row sizes...");
+                    continue;
+                }
+            temp.Add(t);
+        }
+
+        return temp.ToArray();
+    }
 }

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "f25xVwz27StYNw1Swq2bmS8annUaibjvSJpeYN9BcinJIeJZZ/qPuUUBTOoooJTI1yQlMesAJJRt5+MYzT5sdQ==",
+  "dgSpecHash": "/CgxUoT1sxp/j2d8J7RuZn8OjBm1DYyuRVkjIjkMknJsE0s7JU9TGUbdYWmcadjBkEgBYywWyJlzkhS0NoOpRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kirill\\RiderProjects\\MatrixMod\\MatrixMod\\MatrixMod.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Xiaomi\\Desktop\\MatrixMod\\MatrixMod-main\\MatrixMod\\MatrixMod.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Xiaomi\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.14\\microsoft.netcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\Xiaomi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.14\\microsoft.windowsdesktop.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\Xiaomi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.14\\microsoft.aspnetcore.app.ref.6.0.14.nupkg.sha512",
+    "C:\\Users\\Xiaomi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.14\\microsoft.netcore.app.host.win-x64.6.0.14.nupkg.sha512"
+  ],
   "logs": []
 }
